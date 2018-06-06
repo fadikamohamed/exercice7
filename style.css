@@ -1,17 +1,26 @@
 #identité{
   background-color: #2574A9;
-  height: 200px;
+  height: 150px;
 }
+#ident{
+  background-color: #2574A9;
+}
+
 #adresseLiv{
   background-color: #9A12B3;
 }
 #information{
   background-color: #DB0A5B;
 }
+#adresse{
+  height: 85px;
+  width: 150px
+}
 fieldset{
+  width: 80%;
 }
 legend{
-  margin-left: 10px;
+  margin-left: 5px;
 }
 label, input{
   display: inline-block;
