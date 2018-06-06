@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Exercice 7</title>
-  </head>
-  <body>
-    <form method="post" action="">
-      <fieldset>
-        <legend>Votre identité</legend>
-        <label for="nom">1. Nom</label> : <input type="text" name="nom" id="nom" />
-        <label for="prenom">2. Prénom</label> : <input type="text" name="prenom" id="prenom" />
-        <label for="email">3. Adresse mail</label> : <input type="text" name="email" id="email" />
-      </fieldset>
-      <fieldset>
-        <legend>Adresse de livraison</legend>
-        <label for="adresse">1. Adresse</label> : <input type="text" name="adresse" id="adresse" />
-        <label for="codePostal">1. Code postal</label> : <input type="text" name="codePostal" id="codePostal" />
-        <label for="ville">1. Ville</label> : <input type="text" name="ville" id="ville" />
-      </fieldset>
-      <fieldset>
-        <legend>Informations de réglement</legend>
-        <label for=""
-    </form>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Exercice 7</title>
+</head>
+<body>
+  <form method="post" action="">
+    <fieldset id="identité">
+      <legend>Votre identité</legend>
+      <ol>
+      <li><label for="nom">Nom</label> : <input type="text" name="nom" id="nom" /></li>
+      <li><label for="prenom">Prénom</label> : <input type="text" name="prenom" id="prenom" /></li>
+      <li><label for="email">Adresse mail</label> : <input type="text" name="email" id="email" /></li>
+    </ol>
+    </fieldset>
+    <fieldset id="adresseLiv">
+      <legend>Adresse de livraison</legend>
+      <ol>
+      <li><label for="adresse">Adresse</label> : <input type="text" name="adresse" id="adresse" /></li>
+      <li><label for="codePostal">Code postal</label> : <input type="text" name="codePostal" id="codePostal" /></li>
+      <li><label for="ville">Ville</label> : <input type="text" name="ville" id="ville" /></li>
+    </ol>
+    </fieldset>
+    <fieldset id="information">
+      <legend>Informations de réglement</legend>
+      <ol>
+      <li><label for="typeCB">Type de carte bancaire : </label></li>
+      <input type="radio" name="visa" value="visa" id="visa" />VISA
+      <input type="radio" name="mastercard" value="mastercard" id="mastercard" />Mastercard
+      <li><label for="numCarte">Numéro de carte</label> : <input type="text" name="numCarte" id="numCarte" /></li>
+      <li><label for="codeSecu">Code de sécurité</label> : <input type="text" name="codeSecu" id="codeSecu" /></li>
+      <li><label for="nomTitulaire">Nom du titulaire</label> : <input type="text" name="nomTitulaire" id="nomTitulaire" /></li>
+    </fieldset>
+    <input type="submit" value="J'achête !" />
+  </form>
+</body>
 </html>
