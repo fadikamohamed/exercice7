@@ -1,57 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
     <title>Exercice 7</title>
   </head>
   <body>
-    <form methode="post" action="traitement.php">
-    <div id="identité">
-      <p>
-        <br /><br />
-      <label for="nom">1. Nom <label> :
-        <input type="text" name="nom" id="pseudo" />
-        <br />
-      <label for="prenom">2. Prénom <label> :
-        <input type="text" name="nom" id="pseudo" />
-        <br />
-      <label for="mail">3. Adresse mail <label> :
-        <input type="text" name="nom" id="pseudo" />
-      </p>
-    </div>
-<br/><br/>
-    <div id="adresse">
-      <p>
-        <br /><br />
-      <label for="nom">1. Adresse <label> :
-        <input type="text" name="nom" id="pseudo" />
-        <br />
-        <label for="nom">2. Code postal <label> :
-          <input type="text" name="nom" id="pseudo" />
-          <br />
-          <label for="nom">3. Ville <label> :
-            <input type="text" name="nom" id="pseudo" />
-          </p>
-    </div>
-<br/><br/>
-
-    <div id="infos">
-      <p>
-        <br /><br />
-      <label for="nom">1. Type de catre banquaire <label> :
-        <input type="text" name="nom" id="pseudo" />
-        <br />
-      <label for="nom">2. Numéro de carte <label> :
-        <input type="text" name="nom" id="pseudo" />
-        <br />
-      <label for="nom">3. Code de sécurité <label> :
-        <input type="text" name="nom" id="pseudo" />
-        <br />
-      <label for="nom">4. Nom du titulaire <label> :
-        <input type="text" name="nom" id="pseudo" />
-      </p>
-    </div>
-<br/><br/>
+    <form method="post" action="">
+      <fieldset>
+        <legend>Votre identité</legend>
+        <label for="nom">1. Nom</label> : <input type="text" name="nom" id="nom" />
+        <label for="prenom">2. Prénom</label> : <input type="text" name="prenom" id="prenom" />
+        <label for="email">3. Adresse mail</label> : <input type="text" name="email" id="email" />
+      </fieldset>
+      <fieldset>
+        <legend>Adresse de livraison</legend>
+        <label for="adresse">1. Adresse</label> : <input type="text" name="adresse" id="adresse" />
+        <label for="codePostal">1. Code postal</label> : <input type="text" name="codePostal" id="codePostal" />
+        <label for="ville">1. Ville</label> : <input type="text" name="ville" id="ville" />
+      </fieldset>
+      <fieldset>
+        <legend>Informations de réglement</legend>
+        <label for=""
+    </form>
   </body>
 </html>
