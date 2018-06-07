@@ -20,7 +20,7 @@ fieldset{
   width: 80%;
 }
 legend{
-  margin-left: 5px;
+  margin-left: 3px;
 }
 label, input{
   display: inline-block;
